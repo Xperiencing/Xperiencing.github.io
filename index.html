@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Big Tree</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+</head>
+
+<body class="flex flex-col">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- <header class="main-header">
+        <div id="nav-bar">
+            <div class="nav-bar-item-container">
+                <a class="nav-bar-item" href="#">Home</a>
+            </div>
+            <div class="nav-bar-item-container">
+                <a class="nav-bar-item" href="#Gallery">Gallery</a>
+            </div>
+            <div class="nav-bar-item-container">
+                <a class="nav-bar-item" href="#">Location</a>
+            </div>
+        </div>
+
+        <h1 class="main-title">The Big Tree</h1>
+    </header> -->
+
+    <div class="header-image-container">
+        <img width="100%" src="assets/images/big_tree_cover_photo.jpg">
+    </div>
+
+
+    <section class="coffee-section justify-between flex">
+        <h3 class="coffee-caption place-self-center">
+            Barrista Style Coffee <br>
+            Served Fresh Every Day..
+        </h3>
+        <img class="coffee-image justify-self-end" src="assets/images/coffee-alpha.png">
+    </section>
+
+    <!-- <section>
+        <div class="left-section" id="leftBarSection">
+            <img src="assets/images/pints_full.jpg">
+        </div>
+        <div class="right-section" id="rightBarSection"></div>
+    </section> -->
+
+
+    <section id="Gallery" class="gallery-section flex flex-col items-center">
+        <div class="gallery-container">
+            <h1 class="mb-4">Gallery</h1>
+            <hr class="faded-underline">
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 popup-gallery">
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-7.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-7.jpg" alt="The Big Tree-Gallery-7">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-10.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-10.jpg" alt="The Big Tree-Gallery-10">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-12.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-12.jpg" alt="The Big Tree-Gallery-12">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-15.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-15.jpg" alt="The Big Tree-Gallery-15">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-16.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-16.jpg" alt="The Big Tree-Gallery-16">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-21.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-21.jpg" alt="The Big Tree-Gallery-21">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-23.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-23.jpg" alt="The Big Tree-Gallery-23">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-33.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-33.jpg" alt="The Big Tree-Gallery-33">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-47.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-47.jpg" alt="The Big Tree-Gallery-47">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-52.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-52.jpg" alt="The Big Tree-Gallery-52">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-60.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-60.jpg" alt="The Big Tree-Gallery-60">
+                    </a>
+                </div>
+                <div>
+                    <a href="assets/images/gallery/The Big Tree-Gallery-61.jpg">
+                        <img src="assets/images/gallery/The Big Tree-Gallery-61.jpg" alt="The Big Tree-Gallery-61">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="location-section flex-row">
+        <div class="location-info-container-left">
+            <h5 class="general-info-headers">Location:</h5>
+            <p>Calle Ntra. Sra. del Carmen, 3, 35518 Tías, Las Palmas, Spain</p>
+        </div>
+        <div class="location-info-container-right place-self-end">
+            <h5 class="general-info-headers">Opening Hours:</h5>
+            <p>Mon-Thurs: 5pm - 12am</p>
+            <p>Mon-Thurs: 12pm - 12am</p>
+        </div>
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <section id="social-media-links" class="flex-row social-media-section place-self-center justify-center">
+            <a target="_blank" href="https://www.facebook.com/The-Big-Tree-Lanzarote-113406513897499">
+                <img class="social-media-icon" src="assets/images/facebook-logo-bw.png">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/thebigtreelanzarote/">
+                <img class="social-media-icon" src="assets/images/instagram-logo-bw.png">
+            </a>
+        </section>
+
+        <p>© 2020 - THE BIG TREE, CALLE NTRA. SRA. DEL CARMEN, 3, 35518 TÍAS, LAS PALMAS, SPAIN</p>
+        <p>
+            WEBSITE CREATED BY SOMETHING DEVELOPERS
+        </p>
+    </footer>
+
+
+    <script defer src="app.js"></script>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var thebigtree = { lat: 28.921350, lng: -13.671570 };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 18, center: thebigtree });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({ position: thebigtree, map: map });
+        }
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkjA63NwRwhWW37Pn6r24DMkFr443vIlY&callback=initMap">
+        </script>
+</body>
+
+</html>
